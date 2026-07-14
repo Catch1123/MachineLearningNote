@@ -1,4 +1,3 @@
-#%%
 import numpy as np
 import matplotlib.pyplot as plt
 import torchvision as tv
@@ -44,7 +43,7 @@ la = train_data.targets.numpy()
 td = td.reshape(-1,28*28)/225
 bias = np.ones((td.shape[0],1))
 td   = np.hstack([td,bias])
-#%%
+
 # ============ Neural Network Initialization ============
 
 # Network architecture
@@ -63,8 +62,8 @@ W2 = init_weights(layer_dims[1], layer_dims[2])   # (50, 30)
 W3 = init_weights(layer_dims[2], layer_dims[3])   # (30, 10)
 
 weights = [W1, W2, W3]
-#%%
-# ============ Forward pass ============
+
+#============ Forward pass ============
 # Layer 1: input -> hidden layer 1
 Af1 = fd(beta[0], td, W1)      # td @ W1 -> Sigmoid
 
@@ -79,4 +78,6 @@ exAf3 = np.exp(Af3) / np.sum(np.exp(Af3), axis=1, keepdims=True)
 
 # On-site cross entropy loss
 loss = on_site_cross_entropy(exAf3, la)
-# %%
+print(f"The loss of initialized network is {loss:.4f}")
+
+#============= Backward pass ==============
