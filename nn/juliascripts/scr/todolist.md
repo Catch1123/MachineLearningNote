@@ -9,19 +9,17 @@
   - [x] `convertor_image()` - 图像转矩阵
   - [x] `convert_label()` - 标签转向量
 - [x] `src/datamanipulation.jl` - 数据操作模块
-  - [x] `shuffle_data()` - 打乱数据
-  - [x] `split_data()` - 训练/验证分割
-  - [x] `batch_generator()` - 小批量生成器
+  - [x] `bias_terms()` - 添加偏置
   - [x] `normalize_batch()` - 归一化
-  - [x] `standardize_batch()` - 标准化
-  - [x] `to_one_hot()` - One-hot 编码
+  
+
 
 ### Phase 2: 神经网络基础
 
 - [ ] `src/nn_method.jl` - 神经网络基础
-  - [ ] `Neuron` 结构体
-  - [ ] `Dense` 全连接层
-  - [ ] 激活函数 (sigmoid, relu, softmax, tanh)
+  - [ ] `structure()`神经网络层级结构 
+  - [ ] `connect()` 连接类型
+  - [ ] `sigmoid, relu, softmax, tanh`基本激活函数及导数映射
   - [ ] `forward()` - 前向传播
   - [ ] 损失函数 (MSE, CrossEntropy)
   - [ ] 梯度计算
