@@ -1,0 +1,130 @@
+2026/9/7 Beijing - 22:37
+
+训练集大小: 60000
+测试集大小: 10000
+
+==================================================
+开始训练...
+==================================================
+Iter    1: loss = 2.40231816, grad_norm = 13.27376921
+Iter    2: loss = 2.24603742, grad_norm = 9.15748594
+Iter    3: loss = 2.13629554, grad_norm = 7.59047438
+Iter    4: loss = 2.05086739, grad_norm = 6.56671980
+Iter    5: loss = 1.97689893, grad_norm = 6.01686224
+Iter    6: loss = 1.90883064, grad_norm = 5.73378387
+Iter    7: loss = 1.84480993, grad_norm = 5.54843867
+Iter    8: loss = 1.78411865, grad_norm = 5.39740939
+Iter    9: loss = 1.72636455, grad_norm = 5.26359259
+Iter   10: loss = 1.67134876, grad_norm = 5.13533716
+Iter   11: loss = 1.61885541, grad_norm = 5.01522218
+Iter   12: loss = 1.56877900, grad_norm = 4.89738770
+Iter   13: loss = 1.52099121, grad_norm = 4.78336915
+Iter   14: loss = 1.47539701, grad_norm = 4.67182358
+Iter   15: loss = 1.43189505, grad_norm = 4.56234994
+Iter   16: loss = 1.39041460, grad_norm = 4.45462072
+Iter   17: loss = 1.35085116, grad_norm = 4.34948607
+Iter   18: loss = 1.31312502, grad_norm = 4.24630721
+Iter   19: loss = 1.27716748, grad_norm = 4.14538830
+Iter   20: loss = 1.24291340, grad_norm = 4.04482679
+Iter   21: loss = 1.21026349, grad_norm = 3.94782928
+Iter   22: loss = 1.17913381, grad_norm = 3.85367246
+Iter   23: loss = 1.14945526, grad_norm = 3.76208271
+Iter   24: loss = 1.12117161, grad_norm = 3.67180676
+Iter   25: loss = 1.09419843, grad_norm = 3.58457635
+Iter   26: loss = 1.06846824, grad_norm = 3.50036439
+Iter   27: loss = 1.04393496, grad_norm = 3.41693293
+Iter   28: loss = 1.02052327, grad_norm = 3.33704072
+Iter   29: loss = 0.99818756, grad_norm = 3.25855557
+Iter   30: loss = 0.97686510, grad_norm = 3.18292735
+Iter   31: loss = 0.95650892, grad_norm = 3.10898391
+Iter   32: loss = 0.93705954, grad_norm = 3.03811483
+Iter   33: loss = 0.91846924, grad_norm = 2.96939351
+Iter   34: loss = 0.90068992, grad_norm = 2.90293274
+Iter   35: loss = 0.88368163, grad_norm = 2.83875676
+Iter   36: loss = 0.86741175, grad_norm = 2.77578090
+Iter   37: loss = 0.85184542, grad_norm = 2.71418592
+Iter   38: loss = 0.83693785, grad_norm = 2.65541004
+Iter   39: loss = 0.82265261, grad_norm = 2.59841534
+Iter   40: loss = 0.80895494, grad_norm = 2.54337362
+Iter   41: loss = 0.79580750, grad_norm = 2.49121596
+Iter   42: loss = 0.78318160, grad_norm = 2.44051475
+Iter   43: loss = 0.77105886, grad_norm = 2.39068103
+Iter   44: loss = 0.75940818, grad_norm = 2.34297207
+Iter   45: loss = 0.74821231, grad_norm = 2.29630308
+Iter   46: loss = 0.73745085, grad_norm = 2.25067525
+Iter   47: loss = 0.72710036, grad_norm = 2.20655277
+Iter   48: loss = 0.71713348, grad_norm = 2.16448121
+Iter   49: loss = 0.70752946, grad_norm = 2.12439633
+Iter   50: loss = 0.69827991, grad_norm = 2.08425473
+Iter   51: loss = 0.68936287, grad_norm = 2.04568199
+Iter   52: loss = 0.68075880, grad_norm = 2.00877544
+Iter   53: loss = 0.67245183, grad_norm = 1.97312357
+Iter   54: loss = 0.66442957, grad_norm = 1.93875468
+Iter   55: loss = 0.65668303, grad_norm = 1.90451428
+Iter   56: loss = 0.64919469, grad_norm = 1.87197181
+Iter   57: loss = 0.64194936, grad_norm = 1.84083359
+Iter   58: loss = 0.63493440, grad_norm = 1.81076287
+Iter   59: loss = 0.62814304, grad_norm = 1.78139744
+Iter   60: loss = 0.62156681, grad_norm = 1.75242777
+Iter   61: loss = 0.61519613, grad_norm = 1.72427466
+Iter   62: loss = 0.60901947, grad_norm = 1.69737669
+Iter   63: loss = 0.60303122, grad_norm = 1.67089076
+Iter   64: loss = 0.59722104, grad_norm = 1.64525736
+Iter   65: loss = 0.59158300, grad_norm = 1.62060165
+Iter   66: loss = 0.58610936, grad_norm = 1.59631850
+Iter   67: loss = 0.58078982, grad_norm = 1.57318789
+Iter   68: loss = 0.57561799, grad_norm = 1.55075051
+Iter   69: loss = 0.57058603, grad_norm = 1.52918088
+Iter   70: loss = 0.56568847, grad_norm = 1.50824849
+Iter   71: loss = 0.56092235, grad_norm = 1.48754694
+Iter   72: loss = 0.55628144, grad_norm = 1.46754163
+Iter   73: loss = 0.55176011, grad_norm = 1.44800514
+Iter   74: loss = 0.54735459, grad_norm = 1.42933317
+Iter   75: loss = 0.54306421, grad_norm = 1.41008888
+Iter   76: loss = 0.53888112, grad_norm = 1.39192773
+Iter   77: loss = 0.53480139, grad_norm = 1.37438072
+Iter   78: loss = 0.53082244, grad_norm = 1.35705574
+Iter   79: loss = 0.52694037, grad_norm = 1.34006497
+Iter   80: loss = 0.52315035, grad_norm = 1.32384184
+Iter   81: loss = 0.51944882, grad_norm = 1.30793265
+Iter   82: loss = 0.51583290, grad_norm = 1.29243672
+Iter   83: loss = 0.51229939, grad_norm = 1.27746090
+Iter   84: loss = 0.50884742, grad_norm = 1.26231216
+Iter   85: loss = 0.50547271, grad_norm = 1.24782973
+Iter   86: loss = 0.50217291, grad_norm = 1.23368415
+Iter   87: loss = 0.49894496, grad_norm = 1.21988651
+Iter   88: loss = 0.49578696, grad_norm = 1.20624722
+Iter   89: loss = 0.49269469, grad_norm = 1.19324292
+Iter   90: loss = 0.48966547, grad_norm = 1.18083398
+Iter   91: loss = 0.48669952, grad_norm = 1.16818696
+Iter   92: loss = 0.48379477, grad_norm = 1.15584157
+Iter   93: loss = 0.48094818, grad_norm = 1.14397535
+Iter   94: loss = 0.47815659, grad_norm = 1.13272664
+Iter   95: loss = 0.47542101, grad_norm = 1.12107858
+Iter   96: loss = 0.47273883, grad_norm = 1.10974008
+Iter   97: loss = 0.47010775, grad_norm = 1.09894619
+Iter   98: loss = 0.46752606, grad_norm = 1.08830416
+Iter   99: loss = 0.46499164, grad_norm = 1.07805487
+Iter  100: loss = 0.46250301, grad_norm = 1.06819791
+
+==================================================
+训练完成！
+==================================================
+初始损失: 2.402318160313432
+最终损失: 0.4625030103352921
+训练准确率: 86.73166666666667%
+测试准确率: 87.37%
+泛化差距: -0.6383333333333407%
+
+==================================================
+生成可视化...
+==================================================
+✅ 损失曲线已保存: loss_curve.png
+✅ 测试集预测结果已保存: test_predictions.png
+
+==================================================
+🎉 可视化完成！
+==================================================
+生成文件:
+  loss_curve.png
+  test_predictions.png
