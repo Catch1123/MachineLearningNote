@@ -2,7 +2,7 @@
 
 **A from-scratch implementation of neural networks in Julia.**
 
-本项目使用 Julia 从零实现神经网络。
+本项目使用 Julia/python 从零实现神经网络。
 
 本项目的目的并非替代成熟的机器学习框架，而是通过亲自实现神经网络的核心算法，深入理解其背后的数学原理与计算机制。
 
