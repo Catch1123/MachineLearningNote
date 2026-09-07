@@ -22,7 +22,7 @@ images_matrix = Matrix(renormlize(
 labels_vector = 1 .+ Int.(convert_label(datas_train_labels))
 
 # ============ 构建网络 ============
-net = Network(3, [100, 400, 10], Function[ReLU, ReLU, softmax], false)
+net = Network(3, [200, 400, 10], Function[ReLU, ReLU, softmax], false)
 W = initial_weight(net, 28*28 + 1)
 
 
@@ -52,8 +52,8 @@ println("\n" * "="^50)
 println("开始训练...")
 println("="^50)
 
-lr = 1e-2
-epochs = 200
+lr = 2e-2
+epochs = 250
 
 final_w, history = GradientDescent(W, ∇loss, Losstype, lr, epochs)
 
