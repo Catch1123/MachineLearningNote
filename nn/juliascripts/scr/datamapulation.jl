@@ -1,34 +1,17 @@
+module DataMap
+
 using Statistics
+export  bias_terms, renormlize
 
-"""
-    bias_terms(X::Matrix)
 
-Add a bias row of ones to the input matrix.
 
-# Arguments
-- `X::Matrix`: Input matrix of size `(d, N)`
-
-# Returns
-- `Matrix`: Augmented matrix of size `(d+1, N)`
-"""
 
 function bias_terms(X::Matrix)
         return vcat(X,ones(1,size(X,2)))
 end
 
 
-"""
-    renormlize(X::Matrix, methods::String="meanstd")
 
-Normalize the matrix using either mean-std or min-max scaling.
-
-# Arguments
-- `X::Matrix`: Input matrix
-- `methods::String`: "meanstd" or "minmax"
-
-# Returns
-- `Matrix`: Normalized matrix
-"""
 function renormlize(X::Matrix, methods::String = "meanstd")
     
         if methods == "meanstd"
@@ -43,3 +26,4 @@ function renormlize(X::Matrix, methods::String = "meanstd")
 end
 
 
+end

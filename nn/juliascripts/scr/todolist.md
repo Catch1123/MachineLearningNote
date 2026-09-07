@@ -17,13 +17,13 @@
 ### Phase 2: 神经网络基础
 
 - [ ] `src/nn_method.jl` - 神经网络基础
-  - [ ] `structure()`神经网络层级结构 
-  - [ ] `connect()` 连接类型
-  - [ ] `sigmoid, relu, softmax, tanh`基本激活函数及导数映射
+  - [x] `structure()`神经网络层级结构 
+  - [x] `connect()` 连接类型
+  - [x] `sigmoid, relu, softmax, tanh`基本激活函数及导数映射
   - [ ] `forward()` - 前向传播
   - [ ] 损失函数 (MSE, CrossEntropy)
   - [ ] 梯度计算
-  - [ ] 参数更新 (SGD, Adam)
+  - [x] 参数更新 (SGD, Adam)
 
 ### Phase 3: Transformer 模型架构
 
