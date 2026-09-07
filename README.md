@@ -1,8 +1,8 @@
 # 从零实现神经网络 / Neural Networks from Scratch
 
-**A from-scratch implementation of neural networks in Julia.**
+**A from-scratch implementation of neural networks in Julia and Python.**
 
-本项目使用 Julia 从零实现神经网络。
+本项目使用 Julia 和 Python 从零实现神经网络。
 
 本项目的目的并非替代成熟的机器学习框架，而是通过亲自实现神经网络的核心算法，深入理解其背后的数学原理与计算机制。
 
@@ -10,4 +10,12 @@ The purpose of this project is not to replace mature machine learning frameworks
 
 在实现过程中，我刻意避免使用自动微分（Automatic Differentiation）以及高层神经网络抽象，而是从底层计算出发，显式实现前向传播、Softmax、交叉熵损失、反向传播以及梯度下降等核心算法。
 
-The implementation deliberately avoids automatic differentiation and high-level neural-network abstractions. Instead, the core algorithms—including forward propagation, softmax, cross-entropy loss, backpropagation, and gradient descent—are implemented explicitly from the underlying mathematical formulation.
+The implementation deliberately avoids automatic differentiation and high-level neural-network abstractions. Instead, the core algorithms—including forward propagation, softmax, cross-entropy loss, backpropagation, and gradient descent—are implemented explicitly from their underlying mathematical formulations.
+
+完整的正式项目位于 [`nn/juliascripts/scr`](nn/juliascripts/scr) 路径下，目前使用 Julia 实现了基于全连接神经网络的 MNIST 手写数字识别。
+
+The complete implementation is available under [`nn/juliascripts/scr`](nn/juliascripts/scr), where a fully connected neural network for MNIST handwritten digit classification is implemented in Julia.
+
+---
+
+**All rights reserved.**
