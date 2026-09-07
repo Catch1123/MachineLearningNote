@@ -16,13 +16,13 @@
 
 ### Phase 2: 神经网络基础
 
-- [ ] `src/nn_method.jl` - 神经网络基础
+- [x] `src/nn_method.jl` - 神经网络基础
   - [x] `structure()`神经网络层级结构 
   - [x] `connect()` 连接类型
   - [x] `sigmoid, relu, softmax, tanh`基本激活函数及导数映射
-  - [ ] `forward()` - 前向传播
-  - [ ] 损失函数 (MSE, CrossEntropy)
-  - [ ] 梯度计算
+  - [x] `forward()` - 前向传播
+  - [x] 损失函数 (MSE, CrossEntropy)
+  - [x] 梯度计算
   - [x] 参数更新 (SGD, Adam)
 
 ### Phase 3: Transformer 模型架构
@@ -37,14 +37,14 @@
 
 ### Phase 4: 训练与测试
 
-- [ ] `src/train.jl` - 训练循环
-  - [ ] `train_epoch()` - 单轮训练
-  - [ ] `train!()` - 完整训练流程
+- [x] `src/train.jl` - 训练循环
+  - [x] `train_epoch()` - 单轮训练
+  - [x] `train!()` - 完整训练流程
   - [ ] `save_model()` - 保存模型参数
   - [ ] `load_model()` - 加载模型参数
-- [ ] `src/test.jl` - 测试与评估
-  - [ ] `test()` - 模型测试
-  - [ ] `accuracy()` - 准确率计算
+- [x] `src/test.jl` - 测试与评估
+  - [x] `test()` - 模型测试
+  - [x] `accuracy()` - 准确率计算
   - [ ] `confusion_matrix()` - 混淆矩阵
   - [ ] `evaluate()` - 完整评估
 
